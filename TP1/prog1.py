@@ -1,5 +1,6 @@
-print("Hello, World")
-
-a=input("taper un nombre")
-print("nombre=",a)
+while True:
+	a = int(input("Entrez un nombre : "))
+	b = int(input("Entrez un nombre : "))
+	res=f.puissance(a,b)
+	print("a ^b =", res)
 
